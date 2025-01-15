@@ -4,9 +4,9 @@ from langchain_openai import ChatOpenAI
 from langchain.chains import OntotextGraphDBQAChain
 
 # Set the OpenAI API key
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "provide your open ai api key here"
 
-# Explain the structure (ontology) of the GraphDB measurement graph
+# Explain the structure (template) of the GraphDB measurement graph
 graph = OntotextGraphDBGraph(
     query_endpoint="http://Arnes-MacBook-Pro.local:7200/repositories/Slice1LatencyMeasurements",
     query_ontology="""
